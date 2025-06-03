@@ -51,6 +51,7 @@ public class SpaceInvaders extends JPanel {
         SpaceInvaders() {
             setPreferredSize(new Dimension(boardWidth, boardHeight));
             setBackground(Color.black);
+            setFocusable(true);
 
             //load images
             shipImg = new ImageIcon(getClass().getResource("./ship.png")).getImage();
